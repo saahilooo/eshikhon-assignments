@@ -1,0 +1,14 @@
+Difference between Right Join vs Left Join:
+
+MySQL has mainly two kinds of joins named LEFT JOIN and RIGHT JOIN.
+The main difference between these joins is the inclusion of non-matched rows.
+The LEFT JOIN includes all records from the left side and matched rows from the right table,
+whereas RIGHT JOIN returns all rows from the right side and unmatched rows from the left table.
+
+Difference between Inner Join vs Outer Join:
+
+The biggest difference between an INNER JOIN and an OUTER JOIN is that the inner join will keep only 
+the information from both tables that's related to each other
+(in the resulting table). An Outer Join, on the other hand,
+will also keep information that is not related to the other table in the resulting table.
+
